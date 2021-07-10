@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestParalel" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-10T07:20:01" hostname="LAPTOP-S126D5A7" time="7.068">
+  <properties/>
+  <testcase name="PruebaDos()" classname="TestParalel" time="5.178"/>
+  <testcase name="PruebaUno()" classname="TestParalel" time="1.89"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1625901601500	geckodriver	INFO	Listening on 127.0.0.1:45093
+1625901602148	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kamis\\AppData\\Local\\Temp\\rust_mozprofile2lyzm6"
+1625901602540	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kamis\\AppData\\Local\\Temp\\rust_mozprofile2lyzm6\\search.json.mozlz4", (void 0)))
+1625901604645	Marionette	INFO	Listening on port 2492
+1625901604822	Marionette	WARN	TLS certificate errors will be ignored for this session
+jul 10, 2021 2:20:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 4859
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 10, 2021 2:20:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test  name="All test brave">
+        <parameter name="browser" value="brave-remote"></parameter>
+        <parameter name="seleniumGridUrl" value="https://www.google.com/"></parameter>
+        <packages>
+            <package name=".*"></package>
+        </packages>
+    </test>
+    <test  name="All test chrome">
+        <parameter name="browser" value="chrome-remote"></parameter>
+        <parameter name="seleniumGridUrl" value="https://www.google.com/"></parameter>
+        <packages>
+            <package name=".*"></package>
+        </packages>
+    </test>
+</suite>
